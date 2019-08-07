@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    max-width: 50%;
+}
+
+.fontUpper {
+    text-transform: uppercase;
+}
+
+.tela80 {
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    background-image: url(background-spider.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    height: 200px;
+    position: relative;
+}
+
+.header-container {
+    padding-top: 75px;
+    position: relative;
+    z-index: 1;
+}
+
+header::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: black;
+    opacity: 0.7;
+}
+
+header p, header h1 {
+    margin: 0;
+}
+
+.left-container {
+    float: left;
+    width: 65%;
+}
+
+.right-container {
+    float:right;
+    width: 25%;
+}
+
+.article-title {
+    font-weight: 900;
+}
+
+.article-text {
+    margin-bottom: 50px;
+}
+
+.author-container {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 10px 0;
+}
+
+.author {
+    font-weight: 900;
+}
+
+aside p {
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+}
+
+footer {
+    clear: both;
+    background-color: black;
+    color: white;
+    height: 70px;
+}
+
+footer p {
+    width: 80%;
+    margin: auto;
+    line-height:70px;
+}
+
+
+
